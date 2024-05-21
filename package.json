@@ -1,8 +1,8 @@
 {
-  "name": "wxt-react-template",
-  "description": "This template should help get you started developing with React in WXT.",
+  "name": "zenn-dark",
+  "description": "Zennのサイトをダークモードに変更するブラウザ拡張機能",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "wxt",
@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryohidaka/wxt-react-template.git"
+    "url": "git+https://github.com/ryohidaka/zenn-dark.git"
   },
-  "author": "ryohidaka <39184410+ryohidaka@users.noreply.github.com>",
+  "author": "ryohidaka",
   "bugs": {
-    "url": "https://github.com/ryohidaka/wxt-react-template/issues"
+    "url": "https://github.com/ryohidaka/zenn-dark/issues"
   },
-  "homepage": "https://github.com/ryohidaka/wxt-react-template#readme",
+  "homepage": "https://github.com/ryohidaka/zenn-dark#readme",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
