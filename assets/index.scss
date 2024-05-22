@@ -30,7 +30,9 @@
     // Discussionエリア
     "ThreadItemContent_parentItem__",
     // Discussionエリア下部のログイン案内
-    "ArticleComments_commentFormLogin__";
+    "ArticleComments_commentFormLogin__",
+    // もっと見るボタンなど
+    "Button_secondary__";
 
   @each $class in $blue-200-classes {
     [class^="#{$class}"] {
