@@ -11,4 +11,12 @@
     --c-text-low-priority: #fff !important;
     --c-text-lower-priority: #fff !important;
   }
+
+  // ロゴ画像の背景色を白に変更
+  // (ブランディングルール的にロゴの色を変更できないため)
+  [class^="AppHeader_homeLink__"] > svg,
+  [class^="AppFooter_brandingColumn__"] > a > svg,
+  [class^="AppFooter_copyright__"] > a > img {
+    background-color: #fff;
+  }
 }
