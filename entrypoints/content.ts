@@ -1,6 +1,6 @@
+import "~/assets/index.scss";
+
 export default defineContentScript({
-  matches: ["*://*.google.com/*"],
-  main() {
-    console.log("Hello content.");
-  },
+  matches: ["*://*.zenn.dev/*"],
+  main() {},
 });

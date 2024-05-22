@@ -1,0 +1,14 @@
+@media (prefers-color-scheme: dark) {
+  // Zennのカラーパレットを上書き
+  :root {
+    --c-blue-200: #374151 !important;
+    --c-gray-100: #374151 !important;
+    --c-gray-200: #4b5563 !important;
+    --c-gray-300: #1f2937 !important;
+    --c-text-body: #fff !important;
+    --c-bg-base: #111827 !important;
+    --c-bg-secondary: #4b5563 !important;
+    --c-text-low-priority: #fff !important;
+    --c-text-lower-priority: #fff !important;
+  }
+}
