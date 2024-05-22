@@ -53,4 +53,9 @@
       background: var(--c-gray-300) !important;
     }
   }
+
+  // 訪問済みリンク
+  [class^="ArticleList_link__"]:visited {
+    color: #9ca3af !important;
+  }
 }
