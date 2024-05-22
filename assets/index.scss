@@ -42,7 +42,9 @@
     // ヘッダー
     "AppHeader_header__",
     // Trending / Explore切り替え用のnav
-    "ExploreNav_nav__";
+    "ExploreNav_nav__",
+    // 絵文字サムネイル
+    "ArticleList_emoji__";
 
   @each $class in $gray-300-classes {
     [class^="#{$class}"] {
