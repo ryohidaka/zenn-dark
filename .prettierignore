@@ -1,7 +1,6 @@
 .husky
 .output
 .wxt
-assets
 node_modules
 public
 pnpm-lock.yaml
