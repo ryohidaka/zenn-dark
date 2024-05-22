@@ -26,7 +26,11 @@
     // モバイル表示時の目次
     "ArticleMobileHeaderToc_tocContainer__",
     // PC表示時にPublication名が表示されるエリア
-    "PublicationInfoForDesktop_container__";
+    "PublicationInfoForDesktop_container__",
+    // Discussionエリア
+    "ThreadItemContent_parentItem__",
+    // Discussionエリア下部のログイン案内
+    "ArticleComments_commentFormLogin__";
 
   @each $class in $blue-200-classes {
     [class^="#{$class}"] {
