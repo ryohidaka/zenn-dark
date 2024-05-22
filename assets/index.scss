@@ -19,4 +19,30 @@
   [class^="AppFooter_copyright__"] > a > img {
     background-color: #fff;
   }
+
+  $blue-200-classes: 
+    // モバイル表示時に著者名が表示されるaside
+    "ContentStickyNavForMobile_container__",
+    // モバイル表示時の目次
+    "ArticleMobileHeaderToc_tocContainer__",
+    // PC表示時にPublication名が表示されるエリア
+    "PublicationInfoForDesktop_container__";
+
+  @each $class in $blue-200-classes {
+    [class^="#{$class}"] {
+      background: var(--c-blue-200) !important;
+    }
+  }
+
+  $gray-300-classes:
+    // ヘッダー
+    "AppHeader_header__",
+    // Trending / Explore切り替え用のnav
+    "ExploreNav_nav__";
+
+  @each $class in $gray-300-classes {
+    [class^="#{$class}"] {
+      background: var(--c-gray-300) !important;
+    }
+  }
 }
