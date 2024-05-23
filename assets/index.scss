@@ -33,7 +33,9 @@
     // Discussionエリア下部のログイン案内
     "ArticleComments_commentFormLogin__",
     // もっと見るボタンなど
-    "Button_secondary__";
+    "Button_secondary__",
+    // Scrap下部のログイン案内
+    "ScrapThread_loginCta__";
 
   @each $class in $blue-200-classes {
     [class^="#{$class}"] {
@@ -58,5 +60,16 @@
   // 訪問済みリンク
   [class^="ArticleList_link__"]:visited {
     color: #9ca3af !important;
+  }
+
+  // Scrap
+  // Scrapの一覧表示
+  [class^="TopicScraps_container__"] {
+    background: var(--c-bg-base) !important;
+  }
+
+  // Scrapのサイドバー
+  [class^="View_sidebar__"] {
+    background: var(--c-blue-200) !important;
   }
 }
