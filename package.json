@@ -2,7 +2,7 @@
   "name": "zenn-dark",
   "description": "Zennのサイトをダークモードに変更するブラウザ拡張機能",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "wxt",
