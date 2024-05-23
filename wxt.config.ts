@@ -8,7 +8,7 @@ export default defineConfig({
     permissions: [""],
     browser_specific_settings: {
       gecko: {
-        id: "",
+        id: "zenn-dark@hidaka.dev",
       },
     },
   },
