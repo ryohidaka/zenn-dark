@@ -72,4 +72,9 @@
   [class^="View_sidebar__"] {
     background: var(--c-blue-200) !important;
   }
+
+  // モーダルの閉じるボタン
+  [class^="AppModal_buttonClose__"] {
+    color: var(--c-gray-300) !important;
+  }
 }
