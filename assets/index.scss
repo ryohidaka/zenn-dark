@@ -77,4 +77,9 @@
   [class^="AppModal_buttonClose__"] {
     color: var(--c-gray-300) !important;
   }
+
+  // いいねボタン
+  [class^="LikeButton_button__"] {
+    color: var(--c-gray-300) !important;
+  }
 }
