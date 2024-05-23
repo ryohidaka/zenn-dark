@@ -82,4 +82,31 @@
   [class^="LikeButton_button__"] {
     color: var(--c-gray-300) !important;
   }
+
+  // 切り替えタブ
+  // 選択時・ホバー時
+  $active-hover-background: var(--c-gray-300);
+
+  // 通常時
+  $normal-background: var(--c-gray-100);
+
+  @mixin active-hover {
+    &[aria-current="page"],
+    &:hover {
+      background: $active-hover-background !important;
+    }
+  }
+
+  [class^="ExploreNav_childNavLink__"] {
+    @include active-hover;
+    background: $normal-background !important;
+  }
+
+  [class^="TabLinkGroup_link__"] {
+    @include active-hover;
+  }
+
+  [class^="TabLinkGroup_container__"] {
+    background: $normal-background !important;
+  }
 }
