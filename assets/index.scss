@@ -16,7 +16,8 @@
   // (ブランディングルール的にロゴの色を変更できないため)
   [class^="AppHeader_homeLink__"] > svg,
   [class^="AppFooter_brandingColumn__"] > a > svg,
-  [class^="AppFooter_copyright__"] > a > img {
+  [class^="AppFooter_copyright__"] > a > img,
+  [class^="ModalLogin_logoLink__"] > svg {
     background-color: #fff;
   }
 
