@@ -31,9 +31,9 @@
   },
   "devDependencies": {
     "husky": "^9.1.7",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.1",
     "sass": "^1.81.0",
     "typescript": "^5.7.2",
-    "wxt": "^0.19.16"
+    "wxt": "^0.19.17"
   }
 }
