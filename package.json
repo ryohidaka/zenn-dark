@@ -26,14 +26,14 @@
   },
   "homepage": "https://github.com/ryohidaka/zenn-dark#readme",
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "husky": "^9.1.7",
-    "prettier": "^3.4.1",
-    "sass": "^1.81.0",
+    "prettier": "^3.4.2",
+    "sass": "^1.83.0",
     "typescript": "^5.7.2",
-    "wxt": "^0.19.17"
+    "wxt": "^0.19.22"
   }
 }
